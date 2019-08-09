@@ -13,4 +13,14 @@ public class UmsPermissionNode extends UmsPermission {
     @Getter
     @Setter
     private List<UmsPermissionNode> children;
+
+	public List<UmsPermissionNode> getChildren() {
+		return children;
+	}
+
+	public void setChildren(List<UmsPermissionNode> children) {
+		this.children = children;
+	}
+    
+    
 }

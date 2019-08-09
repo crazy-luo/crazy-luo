@@ -12,4 +12,13 @@ public class SmsFlashPromotionSessionDetail extends SmsFlashPromotionSession {
     @Setter
     @Getter
     private Long productCount;
+
+	public Long getProductCount() {
+		return productCount;
+	}
+
+	public void setProductCount(Long productCount) {
+		this.productCount = productCount;
+	}
+    
 }
